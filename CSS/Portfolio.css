@@ -1,0 +1,230 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#38598b,#113f67, #38598b);
+}
+
+  /* estilos para el Menu */
+
+.menu{
+    width: 38%;
+    float: right;
+}
+.menu ul{
+    list-style-type: none;
+   /* overflow: hidden; */
+    position: fixed;
+}
+.menu li{
+    float: left;
+    padding-right: 10px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+}
+li a:hover{
+    background-color: white;
+    color: #113f67;
+}
+
+/* Seccion "Perfil" */
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+.perfil{
+    width: 280px;
+    display: block;
+    margin: auto;
+}
+#perfil h3{
+    color: white;
+    font-size: 30px;
+    /*font-family: sans-serif;*/
+    font-family: 'Kalam', cursive;
+    margin-top: 20px;
+    margin-left: 540px;
+    
+}
+#perfil p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    margin-left: 480px;
+    margin-right: 480px;
+    text-align: center;
+}
+#perfil button{
+    border-radius: 10px;
+    border-color: white;
+    padding: 13px;
+    margin-top: 25px;
+    background-color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #113f67;
+}
+#perfil a{
+    margin-left: 600px;
+}
+#perfil button:hover{
+    border-color: #113f67;
+    background-color: #113f67;
+    color: white;
+}
+
+/* Seccion "Experiencia" */
+
+#experiencia h1{
+margin-bottom: 50px;
+}
+.derecha{
+    margin-left: 700px;
+    margin-right: 200px;
+    margin-top: 20px;
+    color: white;
+    text-align: start;
+}
+.derecha h3{
+    font-size: 27px;
+    color: #f8b400;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.derecha h4{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.derecha h5{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.derecha p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.izquierda{
+    margin-left: 200px;
+    margin-right: 700px;
+    margin-top: 20px;
+    color: white;
+    text-align: end;
+}
+.izquierda h3{
+    font-size: 27px;
+    color: #f8b400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    
+}
+.izquierda h4{
+    font-size: 23px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.izquierda h5{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.izquierda p{
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* Seccion "Habilidades" */
+
+#habilidades button{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 9px;
+    padding: 4px 12px;
+    font-size: 20px;
+    background-color: white;
+    color: #113f67;
+    border-color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+#habilidades .html{
+    margin-left: 320px;
+}
+#habilidades .java{
+    margin-left: 380px;
+}
+
+/* Seccion "Contacto" */
+
+.contenedor{
+    margin: 100px auto;
+    width: 700px;
+    padding: 30px 50px;
+    background: rgba(167, 172, 241, 0.5);
+    border-radius: 30px;
+}
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #113f67;
+    background: #e7eaf6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.contenedor .elemento textarea{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #113f67;
+    background: #e7eaf6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor .elemento input[type="submit"]{
+    border: none;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
