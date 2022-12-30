@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/CSS/Portfolio.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+    <br><br>
+    <section id="perfil">
+        <div>
+            <h1>Perfil</h1>
+            <img class="perfil" src="/imagenes/4x4.jpg" alt="Foto perfil">
+            <h3>Hola, soy <br> Facundo Leguizamón</h3>
+            <p>Apasionado por el desarrollo de software, 
+            con más de 10 años de experiencia en varios 
+            lenguajes de programación y tecnologias.</p>
+            <a href="/Documento/CURRICULUM.pdf" download="CV">
+                <button type="button" name="boton">Descargar CV</button></a>
+        </div>
+    </section>
+    <section id="experiencia">
+        <div>
+            <h1>Experiencia</h1>
+            <div class="derecha">
+                <h3>2021-2022</h3>
+                <h4>constellation agency</h4>
+                <h5>Senior Software Engineer</h5>
+                <p>Desarrollo de la interfaz y el Back-End de un SaaS usado por cientos de clientes
+                    para desplegar anuncios a escala. Usamos React.js, TypeScript, Cypress, Node.js,
+                    Serverless y la infraestructura de AWS (entre otras tecnologias).</p>
+            </div>
+
+            <div class="izquierda">
+                <h3>2019-2021</h3>
+                <h4>modus create</h4>
+                <h5>Senior Software Engineer</h5>
+                <p>Implementacion de una nueva version de la plataforma que permite de forma inteligente
+                    emparejar estudiantes con instituciones educativas. Usamos React.js, GraphQL, 
+                    ElasticSearch, Node.js y otras que nos permitieron lograr una mejora
+                    notable en el rendimiento de la plataforma.</p>
+            </div>
+
+            <div class="derecha">
+                <h3>2018-2019</h3>
+                <h4>endava</h4>
+                <h5>Senior Software Engineer</h5>
+                <p>Desarrollo de soluciones para un cliente en la industria inmobiliaria y otro
+                    lider en servicios médicos de Argentina, implementando una arquitectura desacoplada
+                    usando .Net para el Back-End y React.js en el Front-End. Ademas de brindar
+                    capacitaciones a la empresa sobre temas como Principio SOLID y DDD
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="habilidades">
+        <div>
+            <h1>habilidades</h1>
+            <div>
+                <button disabled class="html">HTML</button>
+                <button disabled>CSS</button>
+                <button disabled>Node.js</button>
+                <button disabled>React.js</button>
+                <button disabled>TypeScript</button>
+                <br>
+                <button disabled class="java">JavaScript</button>
+                <button disabled>Scratch</button>
+                <button disabled>php</button>
+                <button disabled>Genexus</button>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="contenedor">
+            <h2> Formulario Contacto</h2>
+            <form id="forma" name="forma" method="get">
+                <div class="elemento">
+                    <input type="text" id="nombre" name="nombre" placeholder="YOUR NAME" required="true">
+                </div>
+                <div class="elemento">
+                    <input type="email" id="email" name="email" placeholder="YOUR EMAIL" required="true">
+                </div>
+                <div class="elemento">
+                    <input type="text" id="asunto" name="asunto" placeholder="SUBJECT">
+                </div>
+                <div class="elemento">
+                    <textarea name="text" id="mensaje" maxlength="300" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+                </div>
+                <div class="elemento">
+                    <input type="submit" value="Enviar"/>
+                </div>
+
+            </form>
+        </div>        
+    </section>
+</body>
+</html>
